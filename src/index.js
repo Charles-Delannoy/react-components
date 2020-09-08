@@ -8,9 +8,24 @@ const App = () => {
   const img3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHPW2-Xks5_PAbdaIgAyxKPG2uo8OxyNLIGA&usqp=CAU";
   return (
     <div className="ui container comments">
-      <CommentDetail avatar={img1} name="Sam" text="Hi there!" date="Today at 6:00PM"/>
-      <CommentDetail avatar={img2} name="Jane" text="Let dive into React" date="Today at 6:23PM"/>
-      <CommentDetail avatar={img3} name="Jon" text="Great" date="Today at 7:03PM"/>
+      <CommentDetail
+        avatar={img1}
+        name="Sam"
+        text="Hi there!"
+        date="Today at 6:00PM"
+      />
+      <CommentDetail
+        avatar={img2}
+        name="Jane"
+        text="Let dive into React"
+        date="Today at 6:23PM"
+      />
+      <CommentDetail
+        avatar={img3}
+        name="Jon"
+        text="Great"
+        date="Today at 7:03PM"
+      />
     </div>
   );
 };
